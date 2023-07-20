@@ -3,11 +3,9 @@
  * mul - multiplying two numbers
  * @a: the first number
  * @b:the secound number
- * Return:r -the result
+ * Return:the result
  */
 int mul(int a, int b)
 {
-long long r;
-r = a * b;
-return (r);
+return (a * b);
 }
