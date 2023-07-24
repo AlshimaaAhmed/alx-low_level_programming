@@ -14,7 +14,7 @@ for (i = 0 ; *(s + i) != '\0' ; i++)
 len += 1;
 }
 j = len - 1;
-char c[len];
+char c[200];
 for (i = 0; i <= len - 1; i++)
 {
 c[i] = s[j];
