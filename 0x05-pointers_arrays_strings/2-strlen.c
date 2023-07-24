@@ -2,6 +2,7 @@
 /**
  * _strlen - culculate the length of the string
  * @s: the pointer that will recifed the addriss of first element in the string
+ * Return: lenght
  */
 int _strlen(char *s)
 {
