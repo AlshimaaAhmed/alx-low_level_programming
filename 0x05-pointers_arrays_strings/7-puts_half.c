@@ -12,7 +12,14 @@ for (i = 0 ; *(str + i) != '\0' ; i++)
 {
 len += 1;
 }
+ if ( len % 2 == 0)
+{
 i = len / 2;
+}
+ else
+{
+i =(len / 2) + 1;
+}
 for (; str[i] != '\0' ; i++)
 {
 _putchar(str[i]);
