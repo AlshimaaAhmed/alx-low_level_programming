@@ -19,7 +19,7 @@ size++;
 i++;
 }
 str2 = malloc(sizeof(char) * size);
-if (size == 0 || str2 == NULL)
+if (str2 == NULL)
 return (NULL);
 for (i = 0; i < size; i++)
 str2[i] = str[i];
