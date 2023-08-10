@@ -11,7 +11,7 @@ while(str)
 {
 size ++;
 }
-str2 = malloc(sizeof(char) * size)
+str2 = malloc(sizeof(char) * size);
 if (size == 0 || str2 == NULL)
 return (NULL);
 for (i = 0; i < size; i++)
