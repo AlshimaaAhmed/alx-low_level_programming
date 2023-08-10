@@ -1,5 +1,6 @@
-#include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 /**
  * _strdup - duplicate to new memory space location
  * @str: char
@@ -7,21 +8,21 @@
  */
 char *_strdup(char *str)
 {
-char *str2;
-int i;
-int size = 0;
+char *aaa;
+int i, r = 0;
+
 if (str == NULL)
 return (NULL);
 i = 0;
 while (str[i] != '\0')
-{
-size++;
 i++;
-}
-str2 = malloc(sizeof(char) * size);
-if (str2 == NULL)
+aaa = malloc(sizeof(char) * (i + 1));
+
+if (aaa == NULL)
 return (NULL);
-for (i = 0; i < size; i++)
-str2[i] = str[i];
-return (str2);
+
+for (r = 0; str[r]; r++)
+aaa[r] = str[r];
+
+return (aaa);
 }
