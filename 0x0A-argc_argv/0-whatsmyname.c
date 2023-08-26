@@ -1,5 +1,6 @@
 #include<stdlib.h>
 #include<stdio.h>
+#include "main.h"
 /**
  * main -print the file name
  * @argc: the number of arguments
