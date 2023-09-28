@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * _puts_recursion - print astring with resursion methode
  *@s:the string pointer
@@ -6,7 +6,7 @@ include "main.h"
  */
 void _puts_recursion(char *s)
 {
-if (!s)
+if (s == NULL)
 {
 _putchar("\n");
 return;
