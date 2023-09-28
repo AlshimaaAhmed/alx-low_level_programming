@@ -17,7 +17,7 @@ return (if_have_nsqr(n, 0));
 }
 
 /**
- * if_have_nsrq - recurses to find the natural
+ * if_have_nsqr - recurses to find the natural
  * square root of a number
  * @n: number to calculate the sqaure root of
  * @i: iterator
