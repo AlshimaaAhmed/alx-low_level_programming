@@ -16,6 +16,14 @@ return (-1);
 return (if_have_nsqr(n, 0));
 }
 
+/**
+ * actual_sqrt_recursion - recurses to find the natural
+ * square root of a number
+ * @n: number to calculate the sqaure root of
+ * @i: iterator
+ *
+ * Return: the resulting square root
+ */
 int if_have_nsrq(int n, int i)
 {
 if (i * i > n)
