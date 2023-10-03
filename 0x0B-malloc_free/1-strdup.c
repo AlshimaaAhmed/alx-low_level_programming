@@ -9,9 +9,9 @@
  */
 char *_strdup(char *str)
 {
-long unsigned int i;
+unsigned int i;
 char *str2;
-str2 = malloc(strlen(str));
+str2 = malloc(strlen(str) + 1);
 if (str == NULL || str2 == NULL)
 return (NULL);
 for (i = 0; i < strlen(str); i++)
