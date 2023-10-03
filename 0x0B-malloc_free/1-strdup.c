@@ -9,7 +9,7 @@
  */
 char *_strdup(char *str)
 {
-int i;
+long unsigned int i;
 char *str2;
 str2 = malloc(strlen(str));
 if (str == NULL || str2 == NULL)
